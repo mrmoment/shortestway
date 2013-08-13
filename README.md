@@ -3,9 +3,9 @@ Assume there is a 2-d map. A deliver man positioned at (x,y) want to go to desti
 An example of the map:
 
 (0,0,1)  -  (0,1,1)  -  (0,2,1)  -  (0,3,0)
-    |                |                |               |
+    |          |           |           |
 (1,0,1)  -  (1,1,1)  -  (1,2,0)  -  (1,3,1)
-    |                |                |               |
+    |          |           |           |
 (2,0,1)  -  (2,1,1)  -  (2,2,1)  -  (2,3,1)
 
 And the shortest way number is 3 from (0,0) to (2,2).
