@@ -1,28 +1,28 @@
 public class Node {
 
-int x,y,value;
+	int x,y,value;
 
-int distance=0;//how far away from starting node
+	int distance=0;//how far away from starting node
 
-int approaches=0;//how many ways from starting node to this node
+	int approaches=0;//how many ways from starting node to this node
 
-public Node(int x, int y){
+	public Node(int x, int y){
 
-this.x=x;
+		this.x=x;
 
-this.y=y;
+		this.y=y;
 
-}
+	}
 
-public Node(int x, int y, int value){
+	public Node(int x, int y, int value){
 
-this.x=x;
+		this.x=x;
 
-this.y=y;
+		this.y=y;
 
-this.value=value;
+		this.value=value;
 
-}
+	}
 
 }
 
